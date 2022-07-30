@@ -4,7 +4,7 @@
     "name": "Contact Wallet - BlocAtylis",
     "version": "1.0",
   
-    "description": "Un gestionnaire de contact intuitif et agréable pour mémoriser les adresses publics.",
+    "description": "Un gestionnaire de contact intuitif et agréable pour mémoriser les adresses publics de vos relations.",
   
     "icons": {
       "48": "/popup/fr/icons/logo_blocatylis_48.png"
