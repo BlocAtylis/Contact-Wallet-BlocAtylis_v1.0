@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <title>Contact Wallet - BlocAtylis</title>
+    <link rel="icon" type="image/png" href="icons/logo_blocatylis.png" />
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <a href="settings/settings.html" class="bouton">Settings</a>
+    <style>
+      .bouton {
+       display: inline-block;
+       padding: 0.3em 1em;
+       text-decoration: none;
+	     font-weight: 700;
+       color: #8b8b8b;
+       border: solid 2px #464646;
+       border-radius: 3px;
+       transition: .4s;
+	     background-color: #dfccde;
+	     font-family: sans-serif; 
+       font-weight: bolder;
+}
+
+      .bouton:hover {
+       background: #464646;
+       color: white;
+}
+    </style>
+    <hr>
+  </head>
+
+<body>
+  <div class="outer-wrapper">
+    <div class="new-contact">
+      <input type="text" value="Name of your contact...">
+      <textarea>One or more public adresses...</textarea>
+      <b>(Tips : Once the contact is created, you can click on it to edit the information.)</b><br></br>
+      <button class="clear">Clear all</button>
+      <button class="add">+ Contact</button>
+      <div class="clearfix"></div>
+    </div>
+    <hr>
+    <div class="contact-container">
+ 
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

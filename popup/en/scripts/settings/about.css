@@ -1,0 +1,80 @@
+body{
+    background: rgb(118,30,122);
+    background: linear-gradient(90deg, rgba(118,30,122,1) 0%, rgba(190,130,209,0.9948179955575981) 14%, rgba(182,20,194,1) 563%);
+	}
+
+.bouton {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+	font-weight: 700;
+    color: #8b8b8b;
+    border: solid 2px #464646;
+    border-radius: 3px;
+    transition: .4s;
+	background-color: #dfccde;
+	font-family: sans-serif; 
+    font-weight: bolder;
+}
+
+.bouton:hover {
+    background: #464646;
+    color: white;
+}
+
+.bouton1 {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+	font-weight: 700;
+    color: #8b8b8b;
+    border: solid 2px #464646;
+    border-radius: 3px;
+    transition: .4s;
+	background-color: #dfccde;
+	font-family: sans-serif; 
+    font-weight: bolder;
+}
+
+.bouton1:hover {
+    background: #464646;
+    color: white;
+}
+
+table {
+    border-collapse: separate;
+    border: 2px solid #000;
+  }
+  
+  
+  .about {
+    border-spacing: 2px;
+    border-radius: 10px;
+    background-color: #8b8b8b;
+  }
+  
+  .about1 {
+    border-spacing: 2px 2px;
+    border-radius: 10px;
+    background-color: #8b8b8b;
+  }
+
+.example {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+	font-weight: 700;
+    color: #8b8b8b;
+    border: solid 2px #464646;
+    border-radius: 3px;
+    transition: .4s;
+	background-color: #dfccde;
+	font-family: sans-serif; 
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.example:hover {
+    background: #464646;
+    color: white;
+}
